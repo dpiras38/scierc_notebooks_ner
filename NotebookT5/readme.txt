@@ -7,7 +7,7 @@ E' possibile modificare anche i parametri globali del training a seconda della n
 
 Il notebook per generare le risposte presenta due alternative: è possibile generare una singola risposta tramite la funzione generate_question passando come parametri una stringa contenente la frase da dare in input e il path contenente il modello con il fine tuning; nell'altra cella è possibile invece generare un file json contenente tutte le risposte che il modello genera tramite un test set; è necessario cambiare i vari path del dataset, del modello con il fine tuning e della directory dove salvare il risultato
 
-Tramite l'ultimo notebook invece è possibile generare la valutazione sul test set tramite span con il tipo o span senza tipo: è necessario solamente passare alle due funzioni i path del file del dataset e quello dei risultati e le funzioni si occuperanno di calcolare le metriche.
+Tramite l'ultimo notebook invece è possibile generare la valutazione sul test set tramite span con il tipo: è necessario solamente passare alle due funzioni i path del file del dataset e quello dei risultati e le funzioni si occuperanno di calcolare le metriche.
 E' necessario prima avviare la prima cella per far si che le rimanenti funzioni eseguano tutto correttamente.
 
 
