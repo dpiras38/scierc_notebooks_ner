@@ -1,8 +1,7 @@
-Sono presenti tre tipi diversi notebook: uno per effettuare il fine tuning, uno per generare le risposte con il modello con il fine tuning e uno per effettuare la valutazione.
+There are three different types of notebooks: one for fine-tuning, one for generating responses with the fine-tuned model, and one for evaluation.
 
-Il notebook del fine tuning è già predisposto e configurato per essere avviato, bisogna cambiare i path dei dataset di train e di validation, il path della directory in cui vengono salvati tutti i vari checkpoint del modello con il fine tuning ed eventualmente il nome del modello scelto: per scibert è stato utilizzato "allenai/scibert_scivocab_uncased",per scideberta invece "KISTI-AI/scideberta-cs"
+The fine-tuning notebook is already set up and configured to be run. You need to change the paths for the training and validation datasets, the path of the directory where all the various fine-tuned model checkpoints will be saved, and, if necessary, the name of the selected model. For SciBERT, "allenai/scibert_scivocab_uncased" was used, while for SciDeBERTa, "KISTI-AI/scideberta-cs" was used.
 
-Il notebook è già predisposto e configurato per essere avviato, è necessario cambiare i vari path del dataset del modello con il fine tuning e della directory dove salvare il risultato, oltre che i training arguments
+The notebook is already set up and configured to be run; it is necessary to change the various paths for the fine-tuned model's dataset and the directory where the result will be saved, as well as the training arguments.
 
-
-Nella cartella principale sono già presenti i file con il dataset: sono presenti i file di training, validation e test set in 3 diverse versioni: una con incapsulamento, uno senza incapsulamento ed uno senza differenze(in cui sono incluse le altre due versioni, non tutilizzata per scibert)
+The main folder already contains the dataset files: there are training, validation, and test set files in three different versions—one with encapsulation, one without encapsulation, and one without differences (which includes the other two versions but is not used for SciBERT).
